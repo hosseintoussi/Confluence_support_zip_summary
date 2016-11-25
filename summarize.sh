@@ -67,6 +67,5 @@ grep -R "workingDirectory =" | tail -1 >> summary.txt
 
 
 
-echo -e "${color} Summary created successfully, opening it now${NC}"
+echo -e "${color} Summary created successfully.${NC}"
 
-gedit summary.txt
